@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
 
     <title>Sprint Challenge - Anasayfa</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
       rel="stylesheet"
@@ -40,9 +40,10 @@
       </header>
 
       <!-- gallery section -->
+
       <section class="gallery">
-        <div>
-          <h2>YEMEKLERİMİZ</h2>
+        <h2>YEMEKLERİMİZ</h2>
+        <div class="galericlass">
           <img src="img/food-avocadotoast.jpg" alt="food-avocadotoast" />
           <img src="img/food-burger.jpg" alt="food-burger" />
           <img src="img/food-poutine.jpg" alt="food-poutine" />
@@ -132,12 +133,33 @@
 
       <!-- footer -->
       <footer>
-        <!-- email signup -->
-        Mail listemize katılın! Üye Ol
-        <!-- nav -->
-        Menü Rezervasyonlar Özel Teklifler İletişim
-        <!-- copyright -->
-        ©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+        <div class="container">
+          <div class="mailyeri">
+            <form>
+              <h6>Mail listemize katılın!</h6>
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="E-posta Adresi"
+              />
+              <input type="submit" value="Üye Ol" />
+            </form>
+          </div>
+
+          <div class="footersagkisim">
+            <nav class="footernav">
+              <a href="#">Menü</a>
+              <a href="#">Rezervasyonlar</a>
+              <a href="#">Özel Teklifler</a>
+              <a href="#">İletişim</a>
+            </nav>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.</p>
+        </div>
       </footer>
     </div>
   </body>
