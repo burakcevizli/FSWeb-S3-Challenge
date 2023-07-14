@@ -141,7 +141,7 @@ html {
 }
 
 body {
-    background: rgb(0, 4, 17);
+  background: rgb(0, 4, 17);
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
@@ -331,32 +331,31 @@ footer {
   height: 15vh;
   font-size: 3rem;
 }
-.container{
-    background: rgb(0, 4, 17);
-    display: flex;
-    width: 100%;
+.container {
+  background: rgb(0, 4, 17);
+  display: flex;
+  width: 100%;
 }
 .mailyeri {
   width: 40vw;
 }
 .footersagkisim {
-  display: flex; 
-  
+  display: flex;
 }
 .footernav {
   justify-content: space-between;
 }
 footer h6 {
-    color: white;
+  color: white;
 }
 .footernav a {
   font-size: 2rem;
   color: white;
 }
-.copyright{
-    display: flex;
-    justify-content: flex-end;
-    background-color: rgb(0, 4, 17);
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(0, 4, 17);
 }
 .copyright p {
   font-size: 1rem;
@@ -366,10 +365,27 @@ footer h6 {
 /* mobile media query */
 @media (max-width: 428px) {
   /* header section */
-
+  .opakbackground h1 {
+    font-size: 5rem;
+  }
+  header nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  header .icons {
+    gap: 0;
+  }
   /* gallery section */
   .gallery {
     height: auto;
+  }
+  .galericlass {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .galericlass img {
+    width: 100vw;
   }
 
   /* about us section */
@@ -415,5 +431,34 @@ footer h6 {
     height: auto;
     padding-top: 2.5vh;
     font-size: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .footernav {
+    display: flex;
+    flex-direction: column;
+  }
+  .mailyeri form input {
+    width: 49vw;
+  }
+  .mailyeri form h6 {
+    width: 10vw;
+    display: flex;
+  }
+  .copyright {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .copyright p {
+    font-size: 1.5rem;
+    text-align: center;
   }
 }
