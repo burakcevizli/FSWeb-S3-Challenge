@@ -106,7 +106,7 @@ section {
   display: block;
 }
 body {
-    color: rgb(225, 239, 230);
+  color: rgb(225, 239, 230);
   line-height: 1;
 }
 ol,
@@ -238,19 +238,21 @@ header {
 .menu h3 {
   text-align: center;
 }
-.allCards{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    gap: 10rem;
+.allCards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
-.allCards h4,p{
-    font-size: 2rem;
+.allCards h4,
+p {
+  font-size: 2rem;
 }
 .fcard1 {
+  height: 100vh;
   width: 40vw;
   padding: 2rem;
+  justify-content: space-between;
 }
 
 .fcard1 .gazlı {
@@ -258,12 +260,21 @@ header {
   flex-direction: row;
   justify-content: space-between;
 }
+.fcard1 h3 {
+  text-align: start;
+}
+.fcard1 .gazlı h4 {
+  font-weight: bold;
+  padding-top: 2rem;
+}
 #ikitl {
   font-size: 3rem;
 }
 .fcard1 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
+
+
 /* footer section */
 footer {
   width: 100%;
