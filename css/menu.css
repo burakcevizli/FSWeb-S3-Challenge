@@ -317,3 +317,38 @@ footer {
   text-align: end;
 }
 
+/* mobile media query */
+@media (max-width: 428px) {
+  /* header section */
+  .header-title {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  /* menu */
+  .menu {
+    background-image: none;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .menunavbar {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .menunavbar a {
+    color: brown;
+  }
+
+  /* footer section */
+  footer {
+    height: auto;
+    padding-top: 2.5vh;
+    font-size: 2rem;
+  }
+}
