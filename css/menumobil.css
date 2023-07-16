@@ -1,0 +1,27 @@
+/* mobile media query */
+@media (max-width: 428px) {
+    /* header section */
+    .header-title {
+      width: 75%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 4rem;
+    }
+  
+    /* menu */
+    .menu {
+      background-image: none;
+    }
+    .menunavbar{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    /* footer section */
+    footer {
+      height: auto;
+      padding-top: 2.5vh;
+      font-size: 2rem;
+    }
+  }
+  
